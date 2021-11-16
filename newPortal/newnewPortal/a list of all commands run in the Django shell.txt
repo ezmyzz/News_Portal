@@ -37,12 +37,9 @@ PostCategory.objects.create(id_post=post3, id_category=cat4)
 # 6
 # Создаем 4 комментария
 comment1 = Comment.objects.create(id_post=post1, id_user=user1, text="Комментарий user1 к статье про политику.", rating=0)
-comment2 = Comment.objects.create(id_post=post2, id_user=user2, text="Комментарий user2 к новости про науку и культуру.",
-                                  rating=0)
-comment3 = Comment.objects.create(id_post=post3, id_user=user1, text="Комментарий user1 к статье про спорт.",
-                                  rating=0)
-comment4 = Comment.objects.create(id_post=post3, id_user=user2, text="Комментарий user2 к статье про спорт.",
-                                  rating=0)
+comment2 = Comment.objects.create(id_post=post2, id_user=user2, text="Комментарий user2 к новости про науку и культуру.", rating=0)
+comment3 = Comment.objects.create(id_post=post3, id_user=user1, text="Комментарий user1 к статье про спорт.", rating=0)
+comment4 = Comment.objects.create(id_post=post3, id_user=user2, text="Комментарий user2 к статье про спорт.", rating=0)
 
 # 7
 # Проставляем рейтинг 1 статье
